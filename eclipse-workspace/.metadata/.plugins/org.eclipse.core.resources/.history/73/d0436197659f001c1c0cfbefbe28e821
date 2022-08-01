@@ -1,0 +1,37 @@
+package come.week.six.day.one;
+
+public class ListOfItems {
+public static void main(String[] args) {
+	
+	
+	//instantiate an object
+	
+	Item appleObj = new Item();
+	
+	appleObj.name = "Apple";
+	appleObj.price = 0.99;
+	appleObj.quantity = 3.4;
+	
+	//double appleTotalPrice = appleObj.price * appleObj.quantity;
+	
+	//refer to appleObj in price and quantity
+	System.out.println(appleObj.name + " " + appleObj.price + " " + appleObj.quantity);
+	double appleTotalPrice = appleObj.getTotalPrice();//added in instead of using line 17
+	System.out.println(appleObj.name + " Total price is" + " " + appleTotalPrice);
+	
+	//orange object
+	Item orangeObj = new Item();
+	orangeObj.name = "Orange";
+	orangeObj.price = 1.39;
+	orangeObj.quantity = 4.5;
+	
+	double orangeTotalPrice = orangeObj.getTotalPrice();
+	System.out.println(orangeObj.name + " " + orangeObj.price + " " + orangeObj.quantity);
+	
+	//double orangeTotalPrice = orangeObj.price * orangeObj.quantity;
+	
+	System.out.println(orangeObj.name + " Total price is " + orangeTotalPrice);
+	
+	
+}
+}

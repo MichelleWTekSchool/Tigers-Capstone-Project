@@ -1,0 +1,15 @@
+package notes.java;
+
+public class Replit431 {
+	 public static void main(String[] args) {
+
+		    String[] words = {"Good" , "Morning,", "Welcome" , "To" , "Tekschool"};
+
+		    String sentance = " ";
+
+		    for(int index = 0; index < words.length ; index ++) {
+		      sentance = sentance + words[index] + " ";
+		      }
+		    System.out.print(sentance);
+		    }
+		}

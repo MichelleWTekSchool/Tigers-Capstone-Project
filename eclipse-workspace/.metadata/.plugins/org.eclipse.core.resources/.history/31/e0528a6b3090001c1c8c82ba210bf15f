@@ -1,0 +1,15 @@
+package com.week.two.day.three;
+
+public class StringRecap {
+	
+	public static void main(String[] args) {
+		String greeting = "Welcome to Tekschool!!";
+		
+		//Find length of string
+		int lengthOfGreeting = greeting.length();		
+		System.out.println("Lenght is " + lengthOfGreeting);
+		
+		
+	}
+
+}
